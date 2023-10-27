@@ -5,6 +5,14 @@
 
 Avant de commencer, assurez-vous d'avoir téléchargez l'ISO de Debian 12 depuis le site officiel de Debian (https://www.debian.org/) et installez-le sur votre serveur.
 
+Sélectionnez votre machine virtuelle routeur et modifiez sa configuration réseau pour utiliser la même interface réseau virtuelle et lui ajouté un réseau NAT. 
+Cela devrait être une interface de réseau interne et externe. L'interface réseau virtuelle doit être la même pour toutes les machines.
+Assurez-vous que les machines virtuelles sont toutes connectées à la même interface réseau virtuelle.
+
+![configuration du réseau LAN](https://github.com/elisee9571/Infrastructure-linux/blob/main/config-router-lan.png)
+
+Démarrez les machines virtuelles après avoir apporté ces modifications.
+
 ## Étapes d'installation
 
 ### 1. Mise à jour du système
