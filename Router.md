@@ -39,7 +39,7 @@ Editer le fichier d'interface réseau :
 ```bash
 nano /etc/network/interfaces
 ```
-Ajoutez la configuration DHCP à votre interface réseau :
+Ajoutez la configuration du router à votre interface réseau :
 ```plaintext
 auto ens33
 iface ens33 inet dhcp
