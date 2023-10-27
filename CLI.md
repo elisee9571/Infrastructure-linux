@@ -15,7 +15,7 @@ Assurez-vous que les machines virtuelles sont toutes connectées à la même int
 
 Démarrez les machines virtuelles après avoir apporté ces modifications.
 
-### 1. Mise à jour du système
+### 1. Mise en place de l'association CLI et DHCP
 
 Assurez-vous que l'interface réseau de la machine virtuelle du client Windows 10 est configurée pour utiliser le protocole DHCP. 
 Pour ce faire, allez dans les paramètres de la machine virtuelle et sélectionnez "Obtenir une adresse IP automatiquement" dans les propriétés de l'interface réseau.
