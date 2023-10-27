@@ -22,4 +22,4 @@ Pour ce faire, allez dans les paramètres de la machine virtuelle et sélectionn
 Le client Windows 10 devrait maintenant envoyer une demande DHCP au serveur que vous avez configuré précédemment, et il devrait recevoir une adresse IP attribuée par le serveur DHCP.
 
 ![carte réseau](https://github.com/elisee9571/Infrastructure-linux/blob/main/carte-reseau-lan.png)
-![affichage config LAN](https://github.com/elisee9571/Infrastructure-linux/blob/main/affichage-config-lan.png)
+![affichage config LAN](https://github.com/elisee9571/Infrastructure-linux/blob/main/affichage-reseau-lan.png)
