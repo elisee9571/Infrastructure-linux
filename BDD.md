@@ -14,7 +14,7 @@ apt update & apt upgrade
 ```
 
 ### 2. Installation de la SGBD MariaDB
-Installez la base de données MariaDB DHCP en utilisant la commande suivante :
+Installez la base de données MariaDB en utilisant la commande suivante :
 ```bash
 apt install mariadb-server
 ```
@@ -41,7 +41,7 @@ Editer le fichier d'interface réseau :
 ```bash
 nano /etc/network/interfaces
 ```
-Ajoutez la configuration DHCP à votre interface réseau :
+Ajoutez la configuration à votre interface réseau :
 ```plaintext
 auto ens33
 iface ens33 inet static
