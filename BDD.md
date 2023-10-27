@@ -36,23 +36,6 @@ isbn CHAR(20) PRIMARY KEY,
 title VARCHAR(50) );
 ```
 
-### 3. Configurer la sécurité
-Effectuer la commande suivante pour etablir des sécurités :
-```bash
-mysql_secure_installation
-```
-Etablir une connexion :
-```sql
-mariadb -u root -p
-
-CREATE DATABASE db_test;
-
-use db_test;
-CREATE TABLE books (
-isbn CHAR(20) PRIMARY KEY, 
-title VARCHAR(50) );
-```
-
 ### 4. Configuration de l'interface réseau
 Editer le fichier d'interface réseau :
 ```bash
