@@ -7,8 +7,8 @@ Ensuite ouvrez votre logiciel de virtualisation VMware.
 
 Sélectionnez chaque machine virtuelle (client Windows 10, serveur DHCP, routeur) et modifiez sa configuration réseau pour utiliser la même interface réseau virtuelle. 
 Cela devrait être une interface de réseau interne. L'interface réseau virtuelle doit être la même pour toutes les machines.
-
 Assurez-vous que les machines virtuelles sont toutes connectées à la même interface réseau virtuelle.
+![congiguration du réseau LAN](https://github.com/elisee9571/Infrastructure-linux/blob/main/reseau-lan.png)
 
 Démarrez les machines virtuelles après avoir apporté ces modifications.
 
