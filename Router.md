@@ -48,14 +48,8 @@ auto ens36
 iface ens36 inet dhcp
 address 10.10.1.254/24
 ```
-
-
 ### 5. Redémarrage des services
 Redémarrez les services réseau pour appliquer les modifications :
 ```bash
 systemctl networking restart
-```
-Redémarrez le serveur DHCP pour appliquer les modifications :
-```bash
-systemctl restart isc-dhcp-server
 ```
